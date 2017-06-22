@@ -2,9 +2,9 @@
 
 (function(){
   var app = angular.module("emergencyComp");
-  app.controller("complimentsController", ComplimentsController);
+  app.controller("mainController", MainController);
 
-  function ComplimentsController(){
+  function MainController(){
     var vm = this;
     var num = Math.floor(Math.random() * (data.length));
     vm.data = data[num]
